@@ -54,14 +54,17 @@ We encourage participants to read the `how to setup branches and make pull reque
 **Title**: Fix token validation issue in login endpoint
 
 **Description**:
-- **Purpose**: Example: This PR resolves an issue where users were unable to log in due to incorrect token validation.
+- **Purpose**:
+   - Example: This PR resolves an issue where users were unable to log in due to incorrect token validation.
 
 - **Changes**: 
   - Example: Refactored token validation logic in the login endpoint.
 
-- **Impact**: Example: Ensures users can log in successfully with valid credentials. No impact on other endpoints.
+- **Impact**:
+   - Example: Ensures users can log in successfully with valid credentials. No impact on other endpoints.
 
-- **Testing**: Example: Added unit tests for token validation; all tests pass.
+- **Testing**:
+   - Example: Added unit tests for token validation; all tests pass.
 
 - **Additional Information**: Example: Related to issue #123.
 
