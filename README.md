@@ -57,7 +57,7 @@ We encourage participants to read the `how to setup branches and make pull reque
 - **Purpose**: Example: This PR resolves an issue where users were unable to log in due to incorrect token validation.
 
 - **Changes**: 
-  - Example: Refactored token validation logic in the `login` endpoint.
+  - Example: Refactored token validation logic in the login endpoint.
 
 - **Impact**: Example: Ensures users can log in successfully with valid credentials. No impact on other endpoints.
 
@@ -133,7 +133,7 @@ Use HTTP methods according to their purpose:
 
 ## Reach out to Team Member
 
-Instances of you having questions reach out to the project maintainers on slack [slack id]. All complaints will be reviewed promptly.
+Instances of you having questions reach out to the project maintainers on slack [@Olusegun Emmanuel]. All complaints will be reviewed promptly.
 
 ## Acknowledgment
 
