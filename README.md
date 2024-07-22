@@ -66,7 +66,8 @@ We encourage participants to read the `how to setup branches and make pull reque
 - **Testing**:
    - Example: Added unit tests for token validation; all tests pass.
 
-- **Additional Information**: Example: Related to issue #123.
+- **Additional Information**:
+   - Example: Related to issue #123.
 
 
 
