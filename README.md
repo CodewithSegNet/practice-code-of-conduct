@@ -38,11 +38,11 @@ We encourage participants to read the `Contribute to the hng_boilerplate_python_
 
 ***Branch Naming***:
 
-- **Feature Branches**: feature/brief-description
+- **Feature Branches**: feature/branch-name
 
-- **Bug Fix Branches**: bugfix/brief-description
+- **Bug Fix Branches**: bugfix/branch-name
 
-- **Hotfix Branches**: hotfix/brief-description
+- **Hotfix Branches**: hotfix/branch-name
 
 - **Pull Request Titles**: Use the format [Type]: Brief description (e.g., [Bugfix]: Fix user login issue,  [Feat]: add user login).
 
