@@ -1,144 +1,101 @@
-# Code of Conduct
-
-## Introduction
-
-Welcome to our FastAPI project! Our community values respectful and constructive collaboration. This Code of Conduct establishes clear guidelines for acceptable behavior and outlines the conventions and methods to be used in this project. By participating, you agree to abide by this Code of Conduct.
-
-We encourage participants to read the `how to setup branches and make pull requests for proper work-flow` in the branch `Setup workflow` in this repo before coding and pulling code.
- 
-
-## Conventions
-
-***Code Style***
-
-***Language***: The project uses Python.
-
-***Indentation***: Use 4 spaces for indentation.
-
-***Line Length***: Limit lines to 79 characters.
-
-
-## Naming Conventions
-
-- **Variables and Functions**: Use snake_case (e.g., my_function).
-
-- **Classes**: Use PascalCase (e.g., MyClass).
-
-- **Constants**: Use UPPER_CASE (e.g., MY_CONSTANT).
-
-- **Comments**: Use # for single-line comments and ''' or """ for docstrings.
-
-## Git Commit Messages
-
-- Format: Follow the conventional commits standard.
-
-
-
-## Branching and Pull Requests
-
-***Branch Naming***:
-
-- **Feature Branches**: feature/brief-description
-
-- **Bug Fix Branches**: bugfix/brief-description
-
-- **Hotfix Branches**: hotfix/brief-description
-
-- **Pull Request Titles**: Use the format [Type]: Brief description (e.g., [Bugfix]: Fix user login issue,  [Feat]: add user login).
-
-
-
-
-## PR MESSAGE FORMAT
-
-**Title**: Fix token validation issue in login endpoint
-
-**Description**:
-- **Purpose**:
-   - Example: This PR resolves an issue where users were unable to log in due to incorrect token validation.
-
-- **Changes**: 
-  - Example: Refactored token validation logic in the login endpoint.
-
-- **Impact**:
-   - Example: Ensures users can log in successfully with valid credentials. No impact on other endpoints.
-
-- **Testing**:
-   - Example: Added unit tests for token validation; all tests pass.
-
-- **Additional Information**:
-   - Example: Related to issue #123.
-
-
-
-
-
-**Endpoint Naming**:
-
-- Use descriptive and concise names.
-
-- Use nouns to represent the resources being acted upon. Example: /users/orders/{order_id}
-
-### HTTP Methods:
-
-Use HTTP methods according to their purpose:
-
-- GET for retrieving resources.
-- POST for creating resources.
-- PUT for updating resources.
-- DELETE for deleting resources.
-
-### Status Codes:
-
-- Use appropriate HTTP status codes to represent the outcome of the operations.
-
-- **Example**: 200 OK for successful operations, 201 Created for successful resource creation, 404 Not Found for missing resources.
-
-**Path Parameters**:
-- Use curly braces {} to define path parameters.
-         Example: /users/{user_id}
- 
-
-## Testing
-
-- **Test Framework**: Use pytest for testing.
-
-- **Pytest**: Write Pytest for all new features and bug fixes.
-
-- **Test Coverage**: Ensure at least 90% test coverage.
-
-### Documentation
-
-- **Docstrings**: Use docstrings for all public functions and classes.
-
-- **Update Frequency**: Update documentation with each significant change.
-
-## Code Reviews
-
-- **Review Process**: All code changes must be reviewed and approved by at least one other contributor.
-
-- **Review Criteria**: Ensure changes follow the project's coding conventions, are well-documented, and include appropriate tests.
-
-
-## Conduct
-
-- Be Respectful
-
-- Treat all members of the community with respect and consideration.
-
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-
-- Be Collaborative.
-
-- Seek constructive feedback and be open to suggestions.
-
-- Help others, particularly newcomers, by providing guidance and support.
-
-
-## Reach out to Team Member
-
-Instances of you having questions reach out to the project maintainers on slack [@Olusegun Emmanuel]. All complaints will be reviewed promptly.
-
-## Acknowledgment
-
-By participating in this project, you agree to abide by this Code of Conduct and help foster a positive and productive community.
+# Contribute to the hng_boilerplate_python_fastapi_web Project by Forking and Using Your Terminal to Get Upstream Updates
+
+Contributing to a GitHub project by forking and using your terminal to get upstream updates involves several steps. Here's a detailed explanation:
+
+## 1. Fork the Repository
+Forking a repository creates a personal copy of the project on your GitHub. This allows you to make changes without affecting the original project.
+
+- Go to the GitHub repository you want to contribute to. [here click](https://github.com/hngprojects/hng_boilerplate_python_fastapi_web)
+- Click on the "Fork" button at the top-right corner of the repository page.
+This will create a copy of the repository under your GitHub account.
+
+## 2. Clone the Forked Repository
+Clone the forked repository to your local machine so you can work on it.
+
+In this case
+```sh
+git clone https://github.com/your-username/hng_boilerplate_python_fastapi_web.git
+cd hng_boilerplate_python_fastapi_web
+```
+- **REMEMBER to replace your-username with your GitHub username**
+
+## 3. Configure the Upstream Repository
+To keep your fork up-to-date with the original repository, you need to configure a remote that points to the original repository (upstream repository).
+
+In this case
+```sh
+git remote add upstream https://github.com/hngprojects/hng_boilerplate_python_fastapi_web.git
+```
+
+## 4. Fetch and Merge Upstream Changes
+To keep your fork in sync with the upstream repository, fetch the changes and merge them into your local repository.
+
+```sh
+git fetch upstream
+git checkout dev
+git merge upstream/dev
+```
+**Replace dev with the name of the branch you want to sync with.**
+
+### Important: list all branches available in the upstream repository:
+
+```sh
+git branch -r
+```
+
+## 5. Create a New Branch
+Create a new branch for your feature or bug fix. This keeps your changes organized and separate from the main branch.
+
+```sh
+git checkout -b feature/branch-name
+```
+- **Replace branch-name with a descriptive name for your branch.**
+
+## 6. Make Changes and Commit
+Make your changes to the code. Once you're satisfied with your changes, commit them to your new branch.
+
+```sh
+git add .
+git commit -m "Description of the changes"
+```
+
+## 7. Push Changes to Your Fork
+Push your changes to the corresponding branch in your forked repository on GitHub.
+
+```sh
+git push origin feature/branch-name
+```
+
+## 8. Create a Pull Request
+To contribute your changes back to the original repository, you need to create a pull request.
+
+- Go to your forked repository on GitHub.
+- Switch to the branch you pushed your changes to.
+- Click the "Pull Request" button.
+- Add a descriptive title and detailed description for your pull request.
+- Submit the pull request.
+  
+## 9. Keep Your Fork Updated
+Regularly fetch and merge upstream changes to keep your fork up-to-date.
+
+```sh
+git fetch upstream
+git checkout main
+git merge upstream/dev
+git push origin dev
+```
+- This ensures that your fork stays current with the original repository, minimizing merge conflicts and making it easier to contribute in the future.
+
+## Summary
+- Fork the repository on GitHub.
+- Clone your fork to your local machine.
+- Add the upstream repository as a remote.
+- Fetch and merge upstream changes to keep your fork updated.
+- Create a new branch for your changes.
+- Make changes and commit them to your branch.
+- Push your changes to your fork on GitHub.
+- Create a pull request to contribute your changes back to the original repository.
+- Regularly update your fork with upstream changes.
+
+  
+By following these steps, you can effectively contribute to the hng_boilerplate_python_fastapi_web projects while keeping your fork and local repository up-to-date with the original project.
