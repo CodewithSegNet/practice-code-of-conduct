@@ -4,7 +4,7 @@
 
 Welcome to our FastAPI project! Our community values respectful and constructive collaboration. This Code of Conduct establishes clear guidelines for acceptable behavior and outlines the conventions and methods to be used in this project. By participating, you agree to abide by this Code of Conduct.
 
-We encourage participants to read the `Contribute to the hng_boilerplate_python_fastapi_web Project by Forking and Using Your Terminal to Get Upstream Updates` in branch `Setup workflow` in this repo before coding and pulling code.
+We encourage participants to read the `Contribute to the hng_boilerplate_python_fastapi_web Project by Forking and Using Your Terminal to Get Upstream Updates` in branch `Setup workflow` in this repo before pushing code and pulling code.
  
 
 ## Conventions
