@@ -132,12 +132,10 @@ Use HTTP methods according to their purpose:
 
 - Seek constructive feedback and be open to suggestions.
 
-- Help others, particularly newcomers, by providing guidance and support.
-
 
 ## Reach out to Team Member
 
-Instances of you having questions reach out to the project maintainers on slack [@Olusegun Emmanuel]. All complaints will be reviewed promptly.
+Instances of you having questions reach out to the project maintainers on slack [@Sunday Mba, @joboy-dev, @TMCoded, @Modupe Akanni, @Olusegun Emmanuel]. All complaints will be reviewed promptly.
 
 ## Acknowledgment
 
